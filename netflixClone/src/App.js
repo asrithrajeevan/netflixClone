@@ -13,7 +13,8 @@ function App() {
     <div className="App">
       <NavBar />
       <Banner />
-      <RowPost />
+      <RowPost title={'Netflix Originals'} />
+      <RowPost title={'Action'} isSmaller={true}/>
     </div>
   );
 }
