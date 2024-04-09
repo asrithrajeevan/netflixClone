@@ -11,7 +11,7 @@ card = 'https://images.squarespace-cdn.com/content/v1/59232e19579fb3fa44a693c2/1
 imageUrl = 'https://image.tmdb.org/t/p/original'
 
 apiBaseUrl='https://api.themoviedb.org/3'
-
+            
 trending ='https://api.themoviedb.org/3/trending/all/week?api_key={API_KEY_HERE}&language=en-US'
 
 action ='https://api.themoviedb.org/3/discover/movie?api_key={API_KEY_HERE}&with_genres=28'
