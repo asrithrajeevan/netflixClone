@@ -27,8 +27,9 @@
     border-radius: 10px;
     cursor: pointer;
 }
-/* img:hover.smallPoster{
-    max-height: 160px;
-    transition: 'transform 4.1s ease';
-    transform: scale(1);
-} */
+img:hover.smallPoster{
+    transform: scale(1.05);
+}
+img:hover.poster{
+    transform: scale(1.03);
+}
