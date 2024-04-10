@@ -13,9 +13,7 @@ const Banner = () => {
     })
   },[])
   return (
-    <div className='banner'
-      style={{backgroundImage: `url(${movies? imageUrl+movies.backdrop_path:''})`}}
-    >
+    <div className='banner' style={{backgroundImage: `url(${movies? imageUrl+movies.backdrop_path:''})`}}>
       <div className='content'>
         <h1 className='title'>{movies? movies.name? movies.name : movies.title : ''}</h1>
         <div className='banner_buttons'>
