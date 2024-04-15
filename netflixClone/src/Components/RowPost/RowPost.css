@@ -19,6 +19,7 @@
     margin-right: 10px;
     border-radius: 15px;
     cursor: pointer;
+    transition: transform .5s;
 }
 
 .smallPoster{
@@ -26,6 +27,7 @@
     margin-right: 10px;
     /* border-radius: 10px; */
     cursor: pointer;
+    transition: transform 0.5s;
 }
 img:hover.smallPoster{
     transform: scale(1.05);
@@ -43,21 +45,19 @@ img:hover.poster{
     background-color: rgb(1,1,1,1);
     align-items: center;
 }
-.modal-content{
-    flex-direction: column;
-}
 
 .videoContainer{
     margin-inline: 20px;
 }
-.closeButtonDiv{
+/* .closeButtonDiv{
     background-color:rgb(0, 0, 0);
     justify-content: space-between;
     flex-direction:column;
-}
+} */
 .close{
+    display: flex;
     color: #fff;
-    padding: 15px;
+    padding: 25px;
 }
 .close:hover{
     cursor: pointer;

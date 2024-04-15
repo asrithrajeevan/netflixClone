@@ -6,18 +6,40 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: #111;
+    transition: background-color 0.5s;
+    /* background-color: black; */
 }
 
 .logo{
     position: fixed;
     left: 20px;
     width: 80px;
+    z-index: 99;
 }
 
-.avatar{
+.right-icons{
     position: fixed;
     right: 20px;
-    width: 30px;
+    display: flex;
+    justify-content: center; /* Horizontally center the items */
+    align-items: center; /* Vertically center the items */
 }
-
+.avatar{
+    width: 30px;
+    margin-left: 20px;
+}
+.avatar{
+    cursor: pointer;
+}
+.DVD{
+    margin-left: 20px;
+}
+.DVD:hover{
+    cursor: pointer;
+}
+.KIDS:hover{
+    cursor: pointer;
+}
+.notifications{
+    cursor: pointer;
+}
