@@ -1,13 +1,12 @@
 .row{
     margin-left: 20px;
     color: #fff;
+    overflow-x: scroll;
 }
 
 .posters{
     display: flex; /* if came multiple images it show row ways  */
     padding: 20px;
-    overflow-x: scroll;
-    overflow-y: hidden;
 }
 
 .posters::-webkit-scrollbar{ /* it hide the scrole bar */
@@ -49,16 +48,23 @@ img:hover.poster{
 .videoContainer{
     margin-inline: 20px;
 }
-/* .closeButtonDiv{
-    background-color:rgb(0, 0, 0);
-    justify-content: space-between;
-    flex-direction:column;
-} */
 .close{
     display: flex;
-    color: #fff;
+    color: #ff0000;
+    top: 0px;
     padding: 25px;
+    margin-inline-end: 20px;
+    font-size:30px
 }
 .close:hover{
     cursor: pointer;
 }
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    z-index: 9999; /* Higher z-index than the modal */
+  }

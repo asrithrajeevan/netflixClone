@@ -7,7 +7,9 @@
     display: flex;
     justify-content: space-between;
     transition: background-color 0.5s;
-    /* background-color: black; */
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 99;
 }
 
 .logo{
@@ -19,7 +21,7 @@
 
 .right-icons{
     position: fixed;
-    right: 20px;
+    right: 70px;
     display: flex;
     justify-content: center; /* Horizontally center the items */
     align-items: center; /* Vertically center the items */
