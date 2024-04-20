@@ -71,8 +71,9 @@ function RowPost(props) {
             <HandleModal closeModal={closeModal} moviesKey={moviesKey} />
           </div>
           :
+          <>
+          <h2 id="title">{props.title}</h2>
           <div className="row">
-            <h2>{props.title}</h2>
             <div className="posters">
               {movies.map((obj) => (
                 <div style={{flexDirection:'column'}}>
@@ -92,6 +93,7 @@ function RowPost(props) {
               ))}
             </div>
           </div>
+          </>
         }
       </div>
     );
